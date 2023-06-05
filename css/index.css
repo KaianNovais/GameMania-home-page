@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,300&display=swap');
+.custom-search {
+    width: 600px !important;
+    margin-left: 4rem !important ; 
+}
+.apresentacao {
+    background-color: #FCEFE4;
+    margin-top: 32px !important;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apresentacao__img {
+    height: 300px;
+}
+h1 {
+    color: #023D28;
+    font-family: Nunito;
+}
+h2 {
+    margin-top: 24px;
+    font-family: Nunito;
+    margin-left: 72px;
+}
+.apresentacao__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+.btn {
+    width: 200px;
+    background-color: #023D28;
+    color: white;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: #075d3f;
+    color: white;
+}
+.migalhas {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+    gap: 16px;
+}
+.migalhas__texto {
+    background-color: #f7f9fb;
+    display: inline-flex;
+    border-radius: 20px;
+    padding: 8px;
+    align-items: center;
+}
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+.card__header {
+    height: 230px !important;
+}
+.card {
+    width: 300px;
+}
+.card__img {
+    width: 200px;
+}
+footer {
+    margin-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+h3, h4, h6 {
+    font-size: 1rem;
+    color: white;
+    font-family: Nunito;
+    font-weight: 700;
+}
+.footer__texto {
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    font-family: Nunito; 
+}
+
+@media (max-width: 900px){
+    .apresentacao__texto {
+        display: none;
+    }
+}
